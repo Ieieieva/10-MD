@@ -1,0 +1,19 @@
+{
+  "animals": [
+    {
+      "id": 1,
+      "picture": "https://m.media-amazon.com/images/I/519s9XJKfnL.jpg",
+      "name": "cat"
+    },
+    {
+      "id": 2,
+      "picture": "https://img.freepik.com/premium-vector/cute-little-dog-cartoon-isolated-white_143596-3.jpg?w=2000",
+      "name": "dog"
+    },
+    {
+      "id": 3,
+      "picture": "https://img.freepik.com/premium-vector/cute-cartoon-cow-character-smiling-cheerfully_51194-283.jpg?w=2000",
+      "name": "cow"
+    }
+  ]
+}

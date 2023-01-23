@@ -1,3 +1,99 @@
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: antiquewhite;
+  padding: 30px;
+}
+
+.js-all-animals {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.header__title {
+  text-align: center;
+  padding: 20px;
+}
+
+.card__container {
+  width: 33%;
+  padding: 30px 20px;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(206, 196, 196);
+}
+
+.card__image {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.card__info {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  gap: 30px;
+}
+
+.info__visible {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.animal__name {
+  font-size: 2rem;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.buttons-visible {
+  display: flex;
+  gap: 10px;
+}
+
+.btns__all {
+  font-size: 1.2rem;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.form,
+.form2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.addNewTitle,
+.editTitle {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.addNewAnimalName,
+.addNewAnimalPhoto,
+.editAnimalName,
+.editAnimalPhoto {
+  padding: 10px;
+}
+
+
+.info__invisible {
+  display: none;
+}
+
+.info__invisible2 {
+  display: none;
 }
